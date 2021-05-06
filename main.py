@@ -5,7 +5,7 @@ import sys
 
 app = Flask(__name__)
 DOMAIN_NAME = 'https://rr.noordstar.me' # Change this to where people can access your rickroll website.
-ALLOW_ADS = False    # Only change this to True if you want ads on your website - so pretty much never.
+ALLOW_ADS = True    # Only change this to True if you want ads on your website - so pretty much never.
 
 @app.route('/')
 def index():
